@@ -1,0 +1,20 @@
+[development]
+port = 8080
+address = "localhost"
+log = "normal"
+template_dir = "src/views/"
+posts_dir = "posts/"
+
+[staging]
+port = 8080
+address = "0.0.0.0"
+log = "normal"
+template_dir = "src/views/"
+posts_dir = "posts/"
+
+[production]
+port = 8080
+address = "0.0.0.0"
+log = "normal"
+template_dir = "src/views/"
+posts_dir = "posts/"
