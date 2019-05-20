@@ -1,15 +1,15 @@
 [package]
 name = "website"
-version = "0.0.0"
+version = "1.0.1"
 authors = ["Matthew Jack <matt@mattjack.dev>"]
 
 [dependencies]
-comrak = "0.4"
-rocket = "0.4.0"
-serde = { version = "1.0", features = ["derive"] }
+comrak = "^0.4"
+rocket = "^0.4.1"
+serde = { version = "^1.0.91", features = ["derive"] }
 
 [dependencies.rocket_contrib]
-version = "0.4.0"
+version = "^0.4.1"
 default-features = false
 features = ["handlebars_templates"]
 

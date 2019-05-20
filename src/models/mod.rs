@@ -26,7 +26,6 @@ pub mod posts {
     pub fn post_index() -> PostIndex {
         let mut index = PostIndex { post_list: vec![] };
         for path in fs::read_dir("posts/").unwrap() {
-            // let mut posts = HashMap::new();
             let filename = path.unwrap().path();
             let filename = filename.file_stem().unwrap();
             let filename = filename.to_str().unwrap();
